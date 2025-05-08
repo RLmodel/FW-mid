@@ -13,5 +13,6 @@ bool bms_flag_fb_short
 bool bms_flag_fb_ic_error
 bool bms_flag_fb_lock_mos
 bool bms_flag_fb_charge_flag
+bool bms_flag_fb_heating_flag
 float32 bms_flag_fb_hight_temperature
 float32 bms_flag_fb_low_temperature

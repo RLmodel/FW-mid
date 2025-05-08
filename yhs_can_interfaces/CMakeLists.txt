@@ -20,6 +20,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 	"msg/ChassisInfoFb.msg"
 	"msg/CtrlCmd.msg"
 	"msg/CtrlFb.msg"
+	"msg/SteeringCtrlCmd.msg"
+	"msg/SteeringCtrlFb.msg"
 	"msg/FrontAngleFb.msg"
 	"msg/IoCmd.msg"
 	"msg/IoFb.msg"
@@ -28,6 +30,12 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 	"msg/LfWheelFb.msg"
 	"msg/RfWheelFb.msg"
 	"msg/RearAngleFb.msg"
+	"msg/Ultrasonic.msg"
+	"msg/ErrorFb.msg"
+	"msg/MotorCmd.msg"
+	"msg/MotorFb.msg"
+	"msg/DriveMotorCurrentFb.msg"
+	"msg/SteeringMotorCurrentFb.msg"
   DEPENDENCIES std_msgs
 )
 
