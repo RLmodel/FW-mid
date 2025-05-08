@@ -11,7 +11,6 @@ This repository contains minimal packages to control the FW-01 robot using ROS.
 
 * yhs_can_control: a ROS wrapper around to monitor and control the fw-01 robot
 * yhs_can_interfaces: fw-01 related message definitions
-* fw_01_bringup: bringup all launch files related to fw-01
 
 ## Supported Hardware
 
